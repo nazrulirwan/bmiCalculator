@@ -1,0 +1,91 @@
+html{
+	background-color: #87CEFA;
+}
+
+.container{
+	background-color: white;
+	border-radius: 10px;             /* Optional: rounded corners */
+  	padding: 20px;                   /* Space inside the box */
+  	width: 300px;                    /* Optional: control width */
+  	margin: 50px auto;               /* Center the box on the page */
+  	margin-bottom: 10px; /* adds space below each label */
+  	
+}
+
+#title{
+	text-align: center;
+}
+
+label{
+	text-align: center;
+	text-font: 16px;
+}
+
+#feet{
+	width: 30px;
+  	height: 30px;
+  	border-radius: 10px;             /* Optional: rounded corners */
+  	text-align: center;
+  	margin-left: 70px;
+}
+
+#inches{
+	width: 30px;
+  	height: 30px;
+  	border-radius: 10px;             /* Optional: rounded corners */
+  	text-align: center;
+  	margin-left: 70px;
+}
+
+#weight{
+	width: 100px;
+  	height: 30px;
+  	border-radius: 10px;             /* Optional: rounded corners */
+  	text-align: center;
+  	margin-left: 95px;
+}
+
+#bmi-output{
+	width: 100px;
+  	height: 30px;
+  	border-radius: 10px;             /* Optional: rounded corners */
+  	text-align: center;
+  	margin-left: 95px;
+}
+
+#result{
+	display: none;
+	border: dashed 1px;
+	border-radius: 7px;
+	padding: 5px;
+	text-align: center;
+}
+
+#highlight{
+	color: #6495ED;
+}
+
+#btn{
+	text-align: center;
+	button-align: center;
+	background-color: #1E90FF;
+	width: 300px;
+  	height: 40px;
+  	color: white;              /* White text */
+  	border: none;              /* No border */
+  	padding: 10px 20px;        /* Top/Bottom, Left/Right padding */
+  	font-size: 16px;
+  	border-radius: 5px;        /* Rounded corners */
+  	margin-top: 10px;
+  	cursor: pointer;                    /* show the hand pointer */
+  	transition: transform 0.1s ease,    /* smooth press animation */
+    box-shadow 0.1s ease,
+    background-color 0.2s ease;
+}
+
+/* on click (active), push it down */
+#btn:active {
+  transform: translateY(2px);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+  background-color: #187bcd;  /* slightly darker if you like */
+}
